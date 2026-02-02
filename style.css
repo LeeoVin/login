@@ -1,0 +1,37 @@
+body {
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.container-box {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    padding: 40px;
+    width: 100%;
+    max-width: 400px;
+}
+
+.btn-primary-custom {
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+    border: none;
+    width: 100%;
+    padding: 10px;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+}
+
+.btn-primary-custom:hover {
+    opacity: 0.9;
+    color: white;
+}
+
+/* This hides the registration form initially */
+#register-form {
+    display: none;
+}
