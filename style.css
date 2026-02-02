@@ -1,11 +1,11 @@
 body {
   background: linear-gradient(135deg, #71b7e6, #9b59b6);
-  min-height: 100vh; /* Changed from height to min-height */
+  min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
   font-family: "Segoe UI", sans-serif;
-  padding: 20px; /* Added padding for small screens */
+  padding: 20px;
 }
 
 .container-box {
@@ -14,7 +14,7 @@ body {
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
   padding: 30px;
   width: 100%;
-  max-width: 500px; /* Increased slightly for side-by-side inputs */
+  max-width: 500px;
 }
 
 .btn-primary-custom {
